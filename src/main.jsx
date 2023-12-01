@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css'
 
 import App from './App.jsx';
-import Portfolio from './components/pages/Portfolio';
-import ContactForm from './components/pages/ContactForm'
+import Portfolio from './pages/Portfolio';
+import ContactForm from './pages/ContactForm'
 
 const router = createBrowserRouter ([
     {
@@ -18,9 +18,13 @@ const router = createBrowserRouter ([
                 element: <Portfolio />
             },
             {
+                path: '/about',
+                element: <About />
+            },
+            {
                 path: '/contactform',
                 element: <ContactForm />
-            },
+            }
         ],
     },
 ]);
