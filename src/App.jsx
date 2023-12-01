@@ -1,10 +1,12 @@
 import './App.css';
-import Portfolio from './components/Portfolio'
+import Portfolio from './components/pages/Portfolio'
 
 function App() {
     return (
-        <div className = 'portfolio-app'>
+        <div class="portfolio-app">
+            {/* <Nav /> */}
             <Portfolio />
+            
         </div>
     );
 }

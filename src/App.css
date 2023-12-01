@@ -1,4 +1,7 @@
-h2 {
-    color: darkorchid;
-    size: 32;
+.heading {
+    background-color: darkorchid;
+    color: white;
+    font-size: 50;
+    padding: 1rem;
+    width: 100%;
 }
